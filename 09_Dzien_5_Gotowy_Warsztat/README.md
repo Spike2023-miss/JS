@@ -21,3 +21,8 @@ Poszczególne zadania rozwiązuj w odpowiednich plikach.
 ### Poszczególne zadania rozwiązuj w odpowiednich plikach.
 
 **Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**
+
+
+## Warsztat BestShop
+
+Jest to gotowa - wzorcowa wersja warsztatu BestShop.
