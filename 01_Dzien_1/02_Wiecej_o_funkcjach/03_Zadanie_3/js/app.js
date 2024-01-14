@@ -2,6 +2,10 @@ function hello() {
     console.log(hello);
 }
 
+function hello1() {
+    console.log(Witaj)
+}
+
 const array1 = [23, 2, 3, 1, 34, 8];
 const array2 = array1.sort();
 console.log(array2);

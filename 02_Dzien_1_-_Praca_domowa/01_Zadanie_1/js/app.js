@@ -1,0 +1,3 @@
+function getNumber(array){
+    const
+}
