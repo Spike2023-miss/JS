@@ -9,4 +9,4 @@ function getClassInfo(element) {
 }
 
 console.log(getClassInfo(banner));
-x
+xx
