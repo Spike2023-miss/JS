@@ -43,7 +43,7 @@ function chlopi() {
 
 chlopi();
 
-
+// funkcja ktora się łaczy wyświetli Czesc Paweł w firmie coders Lab
 function sayHello(company) {
     return function (name) {
         console.log(`Cześć ${name} w firmie ${company}`)

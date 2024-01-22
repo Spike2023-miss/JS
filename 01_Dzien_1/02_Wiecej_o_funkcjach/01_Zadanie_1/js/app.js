@@ -8,7 +8,7 @@ function firstFunc() {
   }
 
   secondFunc();
-
+  // nie ma dostępu ponieważ funkcja otherInt jest funkcja lokalna zagniezdzona w funkcji globalnej
   console.log(otherInt);
 }
 
