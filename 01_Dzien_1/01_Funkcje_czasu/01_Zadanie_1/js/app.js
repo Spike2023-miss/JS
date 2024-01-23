@@ -1,18 +1,17 @@
-
-  // const interval = setInterval(function () {
-  //     console.log('Wygenerowano z setInterval');
-  // }, 10000);
-  //
-  // const timeout = setTimeout(function () {
-  //       console.log('JavaScript Rules');
-  // }, 4000);
- /**
+// const interval = setInterval(function () {
+//     console.log('Wygenerowano z setInterval');
+// }, 10000);
+//
+// const timeout = setTimeout(function () {
+//       console.log('JavaScript Rules');
+// }, 4000);
+/**
  * // zadania przykladowe
  * const x = 10;
  * const y = 20;
  *
  * if (x > y) {
- *     console.log("x jest wiueksze od y");
+ *     console.log("x jest wieksze od y");
  * } else {
  *     console.log("y jest wieksze od x");
  * }
@@ -160,3 +159,34 @@
 //
 // clearInterval(intervalID);
 
+
+// 3 sposoby zapisywania funkcji!!!!!!!!!!
+
+// sayHello();
+// 1 przykład:
+// greet1()
+// function greet1() {
+//     console.log("hello");
+// }
+// 2 przykład:
+// const greet2 = function (){
+//     console.log("Hello!");
+// }
+//
+// 3 przykład:
+// const greet3= () => {
+//     console.log("Witaj")
+// }
+//
+// greet1()
+// greet2()
+// greet3()
+
+// 1. różnica
+// function greet1() {} - zadziała wszedzie i przed funkcją i po funkcji
+//const greet2 = function () {} - zadziała tylko po funkcji
+// const greet3= () => {} - zadziała tylko po funkcji
+// 2. róznica
+// function greet1() {} - tworzy kontekst
+//const greet2 = function () {} - tworzy kontekst
+// const greet3= () => {} - nie tworzy kontekstu
