@@ -69,6 +69,7 @@
  * }
  * console.log("koniec pętli for");
  *
+ // *dekrementacja
  * for (let c = 4; c >= 0; c--) {
  *     console.log("wartość c", c)
  * }

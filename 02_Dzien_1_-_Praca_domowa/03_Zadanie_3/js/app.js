@@ -36,9 +36,10 @@ planets.sort();
 console.log(planets);
 
 function compareNumbers(a, b) {
-  return a - b;
+    return a - b;
 }
+
 planets.sort((name, numberOfMoons) => name - numberOfMoons);
 
-sorted[0] = 63;
+sortArray()[0] = 63;
 console.log(numbers[0]);
