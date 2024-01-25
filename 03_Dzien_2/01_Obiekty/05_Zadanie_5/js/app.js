@@ -1,8 +1,7 @@
 const recipe= {
     title: "sałatka",
     servings: 4,
-
-    recipe.ingredients = ["sałata", "pomidor", "ogorek"],
+    ingredients: ["tomato", "carot"]
 }
 console.log(recipe.title);
 console.log(recipe.servings);
