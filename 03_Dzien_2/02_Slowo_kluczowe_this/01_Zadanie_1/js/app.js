@@ -5,6 +5,7 @@
 //     color,
 //     numberOfKilometers (na początku 0).
 
+let styczen;
 const car = {
     brand: "Mercedes",
     color: "black",
