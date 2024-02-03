@@ -45,10 +45,27 @@
 //     }
 // });
 
-const images=document.querySelectorAll("img");
+const images = document.querySelectorAll('img');
+const select = document.querySelector('select');
+const form = document.querySelector('form');
 
-function checkImg(name){
-    images.forEach(function (img){
-        img.classList.add("d-none");
+// select.addEventListener('change', handleChange);
+form.addEventListener('submit', handleChange);
+
+function checkImg(name) {
+    images.forEach(function (img) {
+        img.classList.add('d-none');
+
+        if (name === img.alt) {
+            img.classList.remove('d-none');
+        }
     });
+}
+
+checkImg();
+
+function handleChange(event) {
+    event.preventDefault();
+
+    checkImg(select.value);
 }
